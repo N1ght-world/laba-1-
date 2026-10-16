@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+	return DZ_LABA_1();
+}
+int DZ_LABA_1()
+{
+	printf("      /\\ \n");
+	printf("     /  \\ \n");
+	printf("    /    \\ \n");
+	printf("   /      \\ \n");
+	printf("  /________\\ \n");
+	printf("  |        |/| \n");
+	printf("  | []  [] |*| \n");
+	printf("  |        |\\| \n");
+	printf("  |________| \n");
+	printf(" /__________\\ \n");// фундамент
+	printf("/____________\\ \n");
+	printf("      ||      \n"); // Дорожка
+	printf("      ||       \n");
+	printf("==================== \n");
+	return 0;
+}
